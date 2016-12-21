@@ -1,6 +1,10 @@
 {-# LANGUAGE PatternGuards, RecordWildCards #-}
 
-module System.Console.CmdArgs.Implicit.Internal.Global where
+module System.Console.CmdArgs.Implicit.Internal.Global (
+  module System.Console.CmdArgs.Implicit.Internal.Global,
+  module A 
+)
+where
 
 import System.Console.CmdArgs.Implicit.Local
 import System.Console.CmdArgs.Implicit.Reform
@@ -14,6 +18,8 @@ import Control.Monad
 import Data.Char
 import Data.Function
 import Data.Generics.Any
+import Data.Generics.Any as A
+
 import Data.List
 import Data.Maybe
 
