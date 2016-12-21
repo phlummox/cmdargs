@@ -1,5 +1,8 @@
 Changelog for CmdArgs
 
+0.10.14.1
+    Expose 'Global', 'Local', and 'Reform' but as "Internal" modules. 
+    Data.Generics.Any gets re-exported in Global.
 0.10.14
     #39, ensure correct line breaks in HTML help output
     #18, preserve manual \n in help messages

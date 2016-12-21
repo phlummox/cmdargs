@@ -1,7 +1,7 @@
 cabal-version:      >= 1.6
 build-type:         Simple
 name:               cmdargs
-version:            0.10.14
+version:            0.10.14.1
 license:            BSD3
 license-file:       LICENSE
 category:           Console
@@ -67,6 +67,9 @@ library
         System.Console.CmdArgs.Explicit
         System.Console.CmdArgs.GetOpt
         System.Console.CmdArgs.Implicit
+        System.Console.CmdArgs.Implicit.Internal.Global
+        System.Console.CmdArgs.Implicit.Internal.Local
+        System.Console.CmdArgs.Implicit.Internal.Reform
         System.Console.CmdArgs.Text
         System.Console.CmdArgs.Helper
         System.Console.CmdArgs.Verbosity
